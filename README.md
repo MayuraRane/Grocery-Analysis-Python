@@ -39,21 +39,21 @@ Next, we created a correlation matrix to check which features are more related:
 We can see here that Total_Fat_G and Carbohydrates_G are highly correlated to Calories
 
 ### Linear Regression
-
-![image](https://github.com/MayuraRane/Grocery-Analysis-Python/assets/42894788/2e923c49-c068-4f0b-a6e9-210edd5c2b81)
-
-![image](https://github.com/MayuraRane/Grocery-Analysis-Python/assets/42894788/c9fbd823-d2f5-45f2-a6a3-96ca9aef6f3a)
+<br>
+<img src="https://github.com/MayuraRane/Grocery-Analysis-Python/assets/42894788/2e923c49-c068-4f0b-a6e9-210edd5c2b81" height="300"><br>
+<br>
+<img src="https://github.com/MayuraRane/Grocery-Analysis-Python/assets/42894788/c9fbd823-d2f5-45f2-a6a3-96ca9aef6f3a" height="300"><br>
 
 ### K-Means Clustering
 
 We checked the correlation matrix and couldn't see any prominent clusters but we considered this:
-![image](https://github.com/MayuraRane/Grocery-Analysis-Python/assets/42894788/e68a3e31-05b4-431d-8515-53e087a89cf2)
+<br><img src="https://github.com/MayuraRane/Grocery-Analysis-Python/assets/42894788/e68a3e31-05b4-431d-8515-53e087a89cf2" height="400"><br>
 
 After applying clustering techniques, we were getting weird outputs. Thus we decided to use the elbow method to calculate the optimal number of clusters:
-![image](https://github.com/MayuraRane/Grocery-Analysis-Python/assets/42894788/fcd8230a-3b9c-480c-8862-47d33921d4a6)
+<br><img src="https://github.com/MayuraRane/Grocery-Analysis-Python/assets/42894788/fcd8230a-3b9c-480c-8862-47d33921d4a6" height="300"><br>
 
 According to the above graph, we decided to show 2 clusters. There are no clusters in this dataset but we forced them for the sake of the project's goal:
-![image](https://github.com/MayuraRane/Grocery-Analysis-Python/assets/42894788/463a76b1-0059-49d7-ab8c-b3dd746548eb)
+<br><img src="https://github.com/MayuraRane/Grocery-Analysis-Python/assets/42894788/463a76b1-0059-49d7-ab8c-b3dd746548eb" height="300"><br>
 
 
 ## Summary
